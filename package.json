@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Wiki type dictionary api for idolmaster",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XxshiftxX/imas-dict-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XxshiftxX/imas-dict-server/issues"
+  },
+  "homepage": "https://github.com/XxshiftxX/imas-dict-server#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.13.8",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
